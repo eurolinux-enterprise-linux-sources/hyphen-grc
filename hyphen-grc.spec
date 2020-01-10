@@ -2,7 +2,7 @@ Name: hyphen-grc
 Summary: Ancient Greek hyphenation rules
 %define upstreamid 20110913
 Version: 0.%{upstreamid}
-Release: 4%{?dist}
+Release: 5%{?dist}
 #? in a url causes trouble
 #http://tug.org/svn/texhyphen/trunk/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-grc.tex?view=co
 Source: hyph-grc.tex
@@ -45,6 +45,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hyphen/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20110913-5
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20110913-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
